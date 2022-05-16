@@ -22,12 +22,9 @@ html {
 }
 #app {
   height: 80vh;
-  width: 80vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
-  background-size: cover;
 }
 
 h1 {
