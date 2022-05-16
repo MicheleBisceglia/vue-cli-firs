@@ -17,7 +17,8 @@ export default {
 
 <style>
 html {
-  background-color: #18181e;
+  background-image: url(https://p4.wallpaperbetter.com/wallpaper/1001/338/527/5bd24c44cbdf7-wallpaper-preview.jpg);
+  background-size: cover;
 }
 #app {
   height: 80vh;
@@ -26,13 +27,18 @@ html {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  background-size: cover;
 }
 
 h1 {
-  background-color: #18181e;
+  background-color: #18171e;
   color: white;
-  border: #87aa37 solid 20px;
+  border: #87aa37 solid 10px;
   border-radius: 10px;
-  padding: 80px;
+  padding: 40px;
+}
+.bg-image {
+  object-fit: contain;
+  width: 100%;
 }
 </style>
